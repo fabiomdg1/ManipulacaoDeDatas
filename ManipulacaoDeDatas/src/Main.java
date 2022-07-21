@@ -143,7 +143,6 @@ class ExercicioData_01 {
         return data;
     }
 
-
     private String somarMes(int quantidade){
         LocalDateTime localDateTime = LocalDateTime.now().plusMonths(quantidade);
         String data = localDateTime.format(dataTimeFormatter);
