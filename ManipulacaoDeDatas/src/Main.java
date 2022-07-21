@@ -1,10 +1,7 @@
 import java.text.SimpleDateFormat;
-import java.time.Duration;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
-import java.time.temporal.ChronoUnit;
 import java.util.Calendar;
-import java.util.Queue;
 import java.util.Scanner;
 
 public class Main {
@@ -13,8 +10,6 @@ public class Main {
         exercicioData_01.calculoDeDatas();
     }
 }
-
-
 
 class ExercicioData_01 {
     Scanner scanner = new Scanner(System.in);
