@@ -14,7 +14,7 @@ public class Main {
 class ExercicioData_01 {
     Scanner scanner = new Scanner(System.in);
 
-    DateTimeFormatter dataTimeFormatter = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:MM:ss");
+    DateTimeFormatter dataTimeFormatter = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm:ss");
     String opcao;
 
     SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
