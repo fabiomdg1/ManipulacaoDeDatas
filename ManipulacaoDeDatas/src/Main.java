@@ -14,7 +14,6 @@ public class Main {
 class ExercicioData_01 {
     Scanner scanner = new Scanner(System.in);
 
-    Calendar calendar = Calendar.getInstance();
     DateTimeFormatter dataTimeFormatter = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:MM:ss");
     String opcao;
 
